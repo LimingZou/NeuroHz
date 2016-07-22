@@ -1,0 +1,26 @@
+/* 
+  readme.strings
+  Universal
+
+  Created by julius on 14/11/28.
+  Copyright (c) 2014年 mycompany. All rights reserved.
+*/
+
+/*
+这个目录放会被重用的Views/Classes和Categories。里面大概是这样：
+General
+|- Views
+|- TPKScollView
+|- TPKPullToRefresh
+...
+|- Classes
+|- TPKBaseViewController
+|- TPKHorizontalView
+...
+| - Categories
+|- UIViewController+Sizzle
+|- UIImageView+Downloader
+...
+这里的TPK是项目的首字母缩写。
+
+*/
