@@ -9,22 +9,11 @@
 #ifndef NewsReader_SuDefine_h
 #define NewsReader_SuDefine_h
 
-#if DEV
-
-# define SuLog(fmt, ...) NSLog((@"😊😊😊😊[文件名:%s]\n" "[函数名:%s]\n" "[行号:%d] \n" fmt), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
-
-#elif TEST
-
-#define SuLog(format, ...) NSLog(@"%s: %@", __PRETTY_FUNCTION__,[NSString stringWithFormat:format, ## __VA_ARGS__]);
-
-#elif PRE
-
+#if DEBUG
 #define SuLog(format, ...) NSLog(format, ## __VA_ARGS__)
-
+//#define SuLog(format, ...) NSLog(@"%s: %@", __PRETTY_FUNCTION__,[NSString stringWithFormat:format, ## __VA_ARGS__]);
 #else
-
 #define SuLog(format, ...)
-
 #endif
 
 // 日志输出宏

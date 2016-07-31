@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  NeuroHz
+//
+//  Created by 😄咔咔 on 16/7/24.
+//  Copyright © 2016年 Jolly-Liming. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import "SuDefine.h"
+#import "SuCategory.h"
+#import "SuTool.h"
+#import <Reachability.h>
+#import <POP.h>
+#import "NBAPPDelegate.h"
+#import "BXExtensions.h"
+#endif /* PrefixHeader_pch */

@@ -19,6 +19,9 @@ PODS:
   - FMDB/standard (2.6.2)
   - MBProgressHUD (0.9.2)
   - MJExtension (3.0.11)
+  - MJRefresh (2.4.12)
+  - pop (1.0.9)
+  - Reachability (3.2)
   - SDWebImage (3.8.1):
     - SDWebImage/Core (= 3.8.1)
   - SDWebImage/Core (3.8.1)
@@ -29,6 +32,9 @@ DEPENDENCIES:
   - FMDB
   - MBProgressHUD
   - MJExtension
+  - MJRefresh (~> 2.4.10)
+  - pop (~> 1.0.8)
+  - Reachability (~> 3.2)
   - SDWebImage
   - TouchJSON
 
@@ -37,6 +43,9 @@ SPEC CHECKSUMS:
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MJExtension: f9ae6ddc0f1c482c3c9af750280ccebd14381958
+  MJRefresh: ca8e9589895977df32d379d46e6b8a5450b3ff44
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
   TouchJSON: 39be3595ebe489095311d97ce0c824417324cb74
 

@@ -5,3 +5,7 @@ pod 'TouchJSON'
 pod 'MJExtension'
 pod 'AFNetworking'
 pod 'SDWebImage'
+pod 'Reachability', '~> 3.2'
+pod 'pop', '~> 1.0.8'
+pod 'MJRefresh', '~> 2.4.10'
+
