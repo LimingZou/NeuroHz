@@ -1,6 +1,9 @@
 dependencies: \
   /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Category/UIDevice+DeviceType.m \
   /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/PrefixHeader.pch \
+  /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Sources/General/Expand/Json/SSSJsonManager.h \
+  /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Sources/General/Expand/Json/NSObject+SSS.h \
+  /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Sources/Core/AppSetting/SuGlobal.h \
   /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Macros/SuDefine.h \
   /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Util/SuCategory.h \
   /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Util/Extension/NSDictionary+SU.h \
@@ -11,7 +14,6 @@ dependencies: \
   /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Util/Extension/UIWindow+SU.h \
   /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Util/Extension/UIButton+SU.h \
   /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Util/Extension/UITextField+SU.h \
-  /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Util/Extension/UIView+SU.h \
   /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Util/Extension/UIColor+SU.h \
   /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Util/Inherit/SuButton.h \
   /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Util/Inherit/SuCaptureCodeView.h \
@@ -23,7 +25,13 @@ dependencies: \
   /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Util/Tool/SuImageView.h \
   /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Util/Tool/SuNetworkMonitor.h \
   /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Util/Tool/SuLyricTool.h \
+  /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Sources/Section/Mine/Const/UIView+XBExtension.h \
   /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Sources/Appdelegate/NBAPPDelegate.h \
+  /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Sources/General/Player/SUPlayerManager.h \
+  /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Sources/General/Model/SongInfo.h \
+  /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Sources/General/Model/BaseInfo.h \
+  /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Sources/General/Model/ChannelInfo.h \
+  /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Sources/General/Model/UserInfo.h \
   /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Category/BXExtensions.h \
   /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Category/UIApplication+Extensions.h \
   /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Category/UIScreen+Extension.h \
@@ -39,4 +47,5 @@ dependencies: \
   /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Category/UIButton+Extension.h \
   /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Category/UIImage+ScreenShot.h \
   /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Category/UIFont+Extension.h \
-  /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Category/NSDictionary+Extension.h
+  /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Expand/Category/NSDictionary+Extension.h \
+  /Users/apple/Desktop/NeuroHz项目APP/ios端/NeuroHz/NeuroHz/Core/Sources/General/View/TopAlertView/TopAlertView.h

@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>BabyBluetooth.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>FMDB.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -25,6 +30,11 @@
 			<false/>
 		</dict>
 		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -57,27 +67,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0716BD46E1F99E5C3338ABC4ECC3C5F2</key>
+		<key>1958ACEBCD9DFAE8B8240D003EB81EA2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0B48EA9BCEBA3904A9A4F557E74DDE2B</key>
+		<key>21E2A388C91DDC39AF66FBDE7A39CE92</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1046E966BC4AE619B5A235B7498A31BC</key>
+		<key>39C3683E6DE95E41BF021272280806B1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>13ACC6ACFEE802DA13A8BB79D57BD69B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>85290A378020E6BA56336F8815FE478C</key>
+		<key>53480ED0BE09FF49E34B1702D485CAAB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -102,7 +107,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FE2F1D7B9D9FCEA148517E4657B243F4</key>
+		<key>D058B89EB3B3DF45457A2DCD3971AFFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D49B2C7E4906BC6672ACFB66BB5288B6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D5D8910B29ECD2DCE8F568F1E4F5B940</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E183D6A87636AB72483A76A81E8E3EF8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

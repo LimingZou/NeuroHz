@@ -8,4 +8,5 @@ pod 'SDWebImage'
 pod 'Reachability', '~> 3.2'
 pod 'pop', '~> 1.0.8'
 pod 'MJRefresh', '~> 2.4.10'
-
+pod 'Masonry'
+pod 'BabyBluetooth','~> 0.7.0'

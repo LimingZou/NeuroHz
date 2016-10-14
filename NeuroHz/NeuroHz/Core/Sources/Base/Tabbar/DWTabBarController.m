@@ -7,6 +7,8 @@
 //
 
 #import "DWTabBarController.h"
+#import "MineViewController.h"
+#import "HomeViewController.h"
 
 
 #define DWColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0] //<<< 用10进制表示颜色，例如（255,255,255）黑色
@@ -32,9 +34,9 @@
     
     //去除 TabBar 自带的顶部阴影
     [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
-    
-    //设置导航控制器颜色为黄色
-    [[UINavigationBar appearance] setBackgroundImage:[self imageWithColor:DWColor(253, 218, 68)] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
+    //设置导航控制器颜色
+    [[UINavigationBar appearance] setBackgroundImage:[self imageWithColor:[UIColor whiteColor]] forBarMetrics:UIBarMetricsDefault];
 
     
     
@@ -69,24 +71,18 @@
  */
 - (void)setUpChildViewController{
     
-    [self addOneChildViewController:[[UINavigationController alloc]initWithRootViewController:[[UIViewController alloc]init]]
+    [self addOneChildViewController:[[UINavigationController alloc]initWithRootViewController:[[HomeViewController alloc]init]]
                           WithTitle:@"首页"
                           imageName:@"home_normal"
                   selectedImageName:@"home_highlight"];
     
     [self addOneChildViewController:[[UINavigationController alloc]initWithRootViewController:[[UIViewController alloc] init]]
-                          WithTitle:@"音乐"
+                          WithTitle:@"乐听"
                           imageName:@"mycity_normal"
                   selectedImageName:@"mycity_highlight"];
     
     
-    [self addOneChildViewController:[[UINavigationController alloc]initWithRootViewController:[[UIViewController alloc]init]]
-                          WithTitle:@"消息"
-                          imageName:@"message_normal"
-                  selectedImageName:@"message_highlight"];
-    
-    
-    [self addOneChildViewController:[[UINavigationController alloc]initWithRootViewController:[[UIViewController alloc]init]]
+    [self addOneChildViewController:[[UINavigationController alloc]initWithRootViewController:[[MineViewController alloc]init]]
                           WithTitle:@"我的"
                           imageName:@"account_normal"
                   selectedImageName:@"account_highlight"];
@@ -103,7 +99,6 @@
  */
 
 - (void)addOneChildViewController:(UIViewController *)viewController WithTitle:(NSString *)title imageName:(NSString *)imageName selectedImageName:(NSString *)selectedImageName{
-    
     viewController.view.backgroundColor     = DWRandomColor;
     viewController.tabBarItem.title         = title;
     viewController.tabBarItem.image         = [UIImage imageNamed:imageName];

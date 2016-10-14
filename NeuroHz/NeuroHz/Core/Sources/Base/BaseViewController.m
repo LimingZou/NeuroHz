@@ -45,7 +45,7 @@
     //    [self setStatusBarStyle:UIStatusBarStyleLightContent];
     
     //隐藏导航栏下面的线
-    //    [self hideNavBottomLine];
+    [self hideNavBottomLine];
     
     //隐藏返回按钮
     self.navigationItem.hidesBackButton = YES;
